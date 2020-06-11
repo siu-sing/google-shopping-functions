@@ -1,11 +1,22 @@
-.starter{
-  font-size:30px;
+.starter, .inputs {
+  font-size:20px;
   padding:10px;
   display:block;
-  margin:40px;
-  border:3px solid blue;
+  margin:10px;
+  border:1px solid blue;
 }
+
+.btns{
+  margin: 10px;
+  font-size:20px;
+  }
 
 #output{
   background-color:pink;
+}
+
+#fn_display {
+  font-family:monospace;
+  margin:10px;
+  /*font-size:10px;*/
 }

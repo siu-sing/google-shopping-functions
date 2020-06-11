@@ -3,21 +3,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <input class="starter" id="input" placeholder="input"/>
-    <h2>output:</h2>
+        <select class="inputs" id="option">
+            <option value="0" selected="selected">Select option</option>
+            <option value="1">Number of product items</option>
+            <option value="2">Country of each items</option>
+            <option value="3">Price of all inventory</option>
+        </select>
+    <input class="inputs" id="input2" placeholder="input"/>
+    <p id="fn_display"></p>
+    <button class="btns" id="button" type="button">Execute</button>
     <p class="starter" id="output"></p>
-    <script>
-      document.querySelector('#input').addEventListener('change', function(event){
-        var currentInput = event.target.value;
-        var result = inputHappened(currentInput);
-        display( result );
-      });
 
-      var display = function( data ){
-        var output = document.querySelector('#output');
-        output.innerText = data;
-      }
-    </script>
     <script src="products.js"></script>
     <script src="script.js"></script>
   </body>
