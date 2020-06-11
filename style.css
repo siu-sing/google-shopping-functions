@@ -2,21 +2,33 @@
   font-size:20px;
   padding:10px;
   display:block;
-  margin:10px;
+  margin:10px auto;
   border:1px solid blue;
 }
 
 .btns{
-  margin: 10px;
+  display: block;
+  margin:10px auto;
   font-size:20px;
   }
 
 #output{
   background-color:pink;
+  display: inline-block ;
+  margin:10px auto;
+
 }
 
 #fn_display {
   font-family:monospace;
   margin:10px;
   /*font-size:10px;*/
+}
+
+#outputcontainer {
+  text-align:center;
+}
+
+#outputbox {
+  display: inline-block;
 }
